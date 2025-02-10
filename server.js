@@ -36,6 +36,7 @@ app.use(
             "http://localhost:5173",
             "http://localhost:5174",
             "https://blog-app03-client.vercel.app",
+            "https://daily-news-client.vercel.app",
           ],
     credentials: true,
     methods: ["GET", "POST", "PUT", "DELETE"],
