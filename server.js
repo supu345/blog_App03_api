@@ -30,7 +30,7 @@ app.use(
       process.env.mode === "pro"
         ? [
             process.env.CLIENT_CUSTOMER_PRODUCTION_URL,
-            process.env.CLIENT_ADMIN_PRODUCTION_URL,
+            process.env.CLIENT_CUSTOMER_SECONDARY_URL,
           ]
         : [
             "http://localhost:5173",
