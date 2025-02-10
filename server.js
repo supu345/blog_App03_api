@@ -29,8 +29,8 @@ app.use(
     origin:
       process.env.mode === "pro"
         ? [
-            process.env.client_customer_production_url,
-            process.env.client_admin_production_url,
+            process.env.CLIENT_CUSTOMER_PRODUCTION_URL,
+            process.env.CLIENT_ADMIN_PRODUCTION_URL,
           ]
         : [
             "http://localhost:5173",
