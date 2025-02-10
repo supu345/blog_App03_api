@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 const db_connect = async () => {
   try {
-    if (process.env.mode === "production") {
+    if (process.env.mode === "pro") {
       await mongoose.connect(process.env.db_production_url);
       console.log("poduction database connect");
     } else {
