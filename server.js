@@ -46,7 +46,11 @@ dotenv.config();
 
 app.use(
   cors({
-    origin: "*",
+    origin: [
+      "http://localhost:5173",
+      "http://localhost:5174",
+      "https://daily-news-client.vercel.app",
+    ],
     credentials: true,
   })
 );
