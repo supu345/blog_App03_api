@@ -50,6 +50,7 @@ app.use(
       "http://localhost:5173",
       "http://localhost:5174",
       "https://daily-news-client.vercel.app",
+      "https://blog-app03-client.vercel.app",
     ],
     credentials: true,
   })
